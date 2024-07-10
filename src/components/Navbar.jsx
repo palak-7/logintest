@@ -45,7 +45,7 @@ const Navbar = () => {
       className={`bg-purple w-full h-20 lg:h-28 border-b-[1px] border-white text-white lg:flex lg:justify-between lg:mx-auto px-4 fixed z-50`}
     >
       <div className="max-w-screen-2xl h-full mx-auto flex px-4 items-center justify-between lg:mx-0">
-        <Link href={"/"}>
+        {/* <Link href={"/"}>
           <Image
             src="/logo.png"
             priority
@@ -54,7 +54,7 @@ const Navbar = () => {
             width={200}
             height={200}
           />
-        </Link>
+        </Link> */}
         <div
           className="inline-flex lg:hidden"
           onClick={() => setIsOpen(!isOpen)}
